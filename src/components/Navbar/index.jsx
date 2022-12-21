@@ -7,6 +7,7 @@ import { BiBell } from "react-icons/bi";
 import { BsPlusLg } from "react-icons/bs";
 import { MdArrowDropDown } from "react-icons/md";
 import { RxAvatar } from "react-icons/rx";
+import AvatarIcon from "./../../assets/images/dot-circle-24px.png"
 
 const index = () => {
   return (
@@ -82,8 +83,9 @@ const index = () => {
                 color="white"
               />
             </div>
-            <div className="header-user-info d-flex">
-              <RxAvatar color="white" size={`1.3em`} />
+            <div className="header-user-info d-flex align-items-center" >
+              <img src={AvatarIcon} className="border rounded-circle" alt="avatar icon" />
+              {/* <RxAvatar color="white" size={`1.3em`} /> */}
               <MdArrowDropDown
                 className="header-user-info-dropdown"
                 color="white"

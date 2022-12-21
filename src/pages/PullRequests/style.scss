@@ -1,5 +1,9 @@
-.container {
-  max-width: 1000px;
+.container-pull {
+  max-width: 1010px !important;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  // border: 1px solid red;
 }
 
 .list-item {
@@ -139,12 +143,4 @@
     color: black;
     font-weight: 500;
   }
-}
-
-.section-footer-auth{
-  color: #57606A;
-  font-size: 12px;
-}
-.link-list-item-link{
-  font-size: 12.5px;
 }

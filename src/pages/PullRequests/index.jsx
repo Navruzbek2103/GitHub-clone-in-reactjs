@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const index = () => {
    return (
-      <div className='container'>
+      <div className='container-pull'>
          <div className="sections mt-4 mb-3 d-flex gap-3 align-items-center">
             <ul className="list d-flex border overflow-hidden flex-row rounded-2">
                <li className="list-item">
@@ -61,47 +61,6 @@ const index = () => {
          </div>
          <p className="protip-text w-100 position-relative text-center"><span className="protip-text-span">ProTip!</span> Follow long discussions with <a href="https://github.com/issues?q=is%3Aopen+is%3Apr+author%3ANavruzbek2103+archived%3Afalse+comments%3A%3E50" target="blank">comments:/50.</a></p>
          <hr />
-         <div className="section-footer d-flex gap-4 py-4 align-items-center">
-            <div className="section-footer-auth d-flex gap-2 align-items-center">
-               <ImGithub size={`1.84em`}/>
-               <p className="section-footer-auth">© {new Date().getFullYear()} GitHub, Inc.</p>
-            </div>
-            <ul className="info-link-list d-flex gap-4 align-items-center">
-               <li className="info-link-list-item">
-                  <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service" target="blank" className="link-list-item-link">Terms</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="blank" className="link-list-item-link">Privacy</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://github.com/security" target="blank" className="link-list-item-link">Security</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://www.githubstatus.com/" target="blank" className="link-list-item-link">Status</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://docs.github.com/ru" target="blank" className="link-list-item-link">Docs</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://support.github.com/?tags=dotcom-footer" target="blank" className="link-list-item-link">Contact GitHub</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://github.com/pricing" target="blank" className="link-list-item-link">Pricing</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://docs.github.com/ru" target="blank" className="link-list-item-link">API</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://github.com/services/" target="blank" className="link-list-item-link">Training</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://github.blog/" target="blank" className="link-list-item-link">Blog</a>
-               </li>
-               <li className="info-link-list-item">
-                  <a href="https://github.com/about" target="blank" className="link-list-item-link">About</a>
-               </li>
-            </ul>
-         </div>
 
       </div>
    );
