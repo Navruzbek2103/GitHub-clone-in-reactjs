@@ -11,7 +11,7 @@ const index = ({repo}) => {
       <div className='card d-flex p-3 '>
          <ul className="card-repo-list d-flex flex-column gap-4">
             <li className="card-repo-item d-flex justify-content-between fw-semibold ">
-               <Link to="/" className='card-repo-item-title'>{repo.name ? repo.name : "Not found"}</Link>
+               <a href="https://github.com/Navruzbek2103/Admin-dashboard-classWork" className='card-repo-item-title' target="blank">{repo.name ? repo.name : "Not found"}</a>
                <span className="card-repo-item-span border rounded-4 ">{repo.visibility === "public" ? "Public" : "Private"}</span>
             </li>
 

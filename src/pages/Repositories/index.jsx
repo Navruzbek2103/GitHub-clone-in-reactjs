@@ -17,6 +17,7 @@ const index = () => {
 
   },[])
 
+
   return <div className="repositories">
     <div className="repositories-search d-flex gap-3">
       <input type="text" className="find-repo form-control" placeholder="Find a repository" />

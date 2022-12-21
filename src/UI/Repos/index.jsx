@@ -13,7 +13,7 @@ const index = ({data}) => {
   return <li className="repositories-item d-flex align-items-center justify-content-between">
     <div className="repositories-item-left d-flex flex-column gap-2">
       <div className="repositories-name d-flex align-items-center gap-2">
-        <Link to="/" className="repositories-name-title fw-semibold">{data.name}</Link>
+        <a href="https://github.com/Navruzbek2103/Admin-dashboard-classWork" target="blank" className="repositories-name-title fw-semibold">{data.name}</a>
         <span className="repositories-name-span fw-semibold border rounded-4">Public</span>
       </div>
       <div className="repositories-item-left-box d-flex align-items-center gap-3">
