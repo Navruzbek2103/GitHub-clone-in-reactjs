@@ -3,11 +3,7 @@ import "./style.scss";
 import { Link } from "react-router-dom";
 
 
-
-
-
 const index = ({data}) => {
-  console.log(data);
   return (
     <li className="followers-list-item d-flex">
       <Link to="/" className="me-4">
@@ -19,7 +15,7 @@ const index = ({data}) => {
           <h2 className="followers-list-item-title ">Christian Deacon <small className="fw-normal">{data.login}</small></h2>
           <button className="followersBtn btn btn-light border fw-semibold">Follow</button>
         </div>
-        <p className="followers-item-text">Open source supporter and I love game/web/back-end dev, network engineering, and modding! Checkout -></p>
+        <p className="followers-item-text">Open source supporter and I love game/web/back-end dev, network engineering, and modding! Checkout -</p>
       </div>
 
 

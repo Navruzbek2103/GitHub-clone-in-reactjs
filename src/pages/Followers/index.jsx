@@ -13,7 +13,6 @@ const index = () => {
     })
   }, [])
 
-  // console.log(follower)
 
   return (
     <ul className="followers-list w-100">
