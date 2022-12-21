@@ -1,0 +1,23 @@
+.repositories{
+  padding-top: 15px !important;
+
+  &-search{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D4DAE0;
+  }
+
+  .find-repo{
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+
+  .btn-light{
+    padding: 5px 12px;
+    background-color: #F6F8FA !important;
+    font-size: 14px;
+  }
+  .btn-success{
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+}

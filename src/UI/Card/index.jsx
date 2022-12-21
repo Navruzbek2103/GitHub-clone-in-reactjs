@@ -24,7 +24,7 @@ const index = () => {
                      HTML
                   </li>
                   <li className="card-desc-item d-flex align-items-center gap-1">
-                     <FiStar size={`1.2em`} color="dimgrey"/>
+                     <FiStar className='card-desc-item-star' size={`1.2em`} color="dimgrey"/>
                      2
                   </li>
                </ul>

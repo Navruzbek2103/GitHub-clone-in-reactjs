@@ -7,9 +7,9 @@
 
 .hero-menu-list{
   // border: 1px solid red;
-  max-width: 560px;
+  max-width: 545px;
   width: 100%;
-  gap: 10px;
+  gap: 13px;
   margin-top: 28px;
 }
 
@@ -23,23 +23,23 @@
     }
   }
 
-}
-
-.menu-list-box{
-  padding: 3px 8px;
+  .list-item-link{
   // border: 1px solid red;
-  margin: 7px 0;
+    padding: 4.4px 8px;
+    margin: 6px 0;
 
-  &:hover{
-    background-color: #F0F2F4;
-  }
-  .hero-menu-icon{
-    color: #595959;
+    &:hover{
+      background-color: #F0F2F4;
+    }
+    .hero-menu-icon{
+      color: #595959;
+    }
+
+    .menu-list-span{
+      padding: 0 7px;
+      background-color: #e4e5e7;
+      font-size: 13.5px;
+    }
   }
 
-  .menu-list-span{
-    padding: 0 7px;
-    background-color: #e4e5e7;
-    font-size: 13.5px;
-  }
 }

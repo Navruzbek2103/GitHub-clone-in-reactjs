@@ -27,4 +27,11 @@
     font-size: 13px;
     padding: 0 6px;
   }
+
+  .card-desc-item:last-child:hover {
+    .card-desc-item-star{
+      color: #0199ff !important;
+    }
+    color: #0199ff !important;
+  }
 }

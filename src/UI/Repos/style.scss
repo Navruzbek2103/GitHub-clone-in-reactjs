@@ -1,0 +1,54 @@
+
+.repositories-item{
+  border-bottom: 1px solid #D4DAE0;
+  padding: 25px 0 38px 0;
+
+  .repositories-name-title{
+    font-size: 20px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+
+  .repositories-name-span{
+    font-size: 12px;
+    color: dimgrey;
+    padding: 0 7px;
+  }
+
+  &-left-box-text{
+    font-size: 13px;
+    color: grey;
+  }
+
+  &-left-box-star{
+    font-size: 13px;
+
+    &:hover{
+      color: #1c77ff !important;
+      .repositories-item-left-star-icon{
+        color: #1c77ff !important;
+      }
+
+    }
+  }
+
+  &-update{
+    font-size: 13px;
+    color: dimgray;
+  }
+}
+.btn-group{
+  width: 100px;
+}
+.repositories-item-right{
+  max-width: 100px;
+  width: 100%;
+  // border: 1px solid red;
+}
+.repositories-underline{
+  width: 150%;
+  transform: translateX(-25%);
+  height: 2px;
+  background-color:  #A3E6B2;
+}

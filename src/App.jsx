@@ -5,6 +5,9 @@ import Footer from "./components/Footer"
 import PullRequest from "./pages/PullRequests"
 import Issues from "./pages/Issues"
 import Hero from "./components/Hero"
+import Overview from "./pages/Overview"
+import Repositories from "./pages/Repositories"
+import Projects from "./pages/Project"
 
 const App = () => {
   return (
@@ -12,9 +15,16 @@ const App = () => {
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Hero />} >
+            <Route path='/' element={<Overview />} />
+            <Route path='/repositories' element={<Repositories />} />
+            <Route path='/projects' element={<Projects />} />
+            {/* <Route path='/packages' element={<Packages />} /> */}
+            {/* <Route path='/stars' element={<Stars />} /> */}
+          </Route>
           <Route path="/pulls" element={<PullRequest />} />
           <Route path="/issues" element={<Issues />} />
+
         </Routes>
       </main>
       <Footer />
