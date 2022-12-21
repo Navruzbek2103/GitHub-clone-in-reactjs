@@ -1,12 +1,122 @@
-import React from 'react';
+import React from "react";
 import "./style.scss";
+import {ImGithub} from "react-icons/im"
+
+
 const index = () => {
-   return (
-      <div>
-         {/* <h1>Footer</h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum alias ab sit repellat deleniti corporis omnis ea veritatis quos, debitis quaerat quas nostrum harum fuga eos ducimus deserunt nesciunt possimus doloribus ipsam dolor adipisci facilis commodi totam. Voluptatum ea nihil perferendis officiis unde blanditiis inventore dolores facilis quas nulla, sapiente delectus porro officia optio beatae voluptatibus accusantium, iure, eos corrupti doloremque minima. Voluptates amet, porro optio magnam rerum deleniti dicta illum facilis laboriosam in sit similique cupiditate. Illo rem sit culpa reiciendis praesentium in temporibus enim dolor libero atque odio, vel ratione sapiente impedit ad modi asperiores ea quaerat nisi? Cumque, corrupti consequuntur quae id magni sint aliquam voluptates officiis adipisci vel deserunt cupiditate incidunt dicta reprehenderit quod ab officia error qui dignissimos dolorem? Velit earum est incidunt eum perspiciatis deserunt, doloremque minus atque quia quaerat assumenda vero fuga repudiandae voluptatum inventore corporis dicta fugit! Possimus fugit illo porro sequi rem odio officia. Iure rerum minus, voluptate nisi iste porro quam voluptas nam eum et blanditiis accusamus dolor nulla tenetur repudiandae adipisci molestias error consectetur quod. Dolores similique provident veniam hic praesentium est delectus excepturi quia, ad nam culpa, in ut fuga vitae voluptatibus quo quos vero dolore maxime tempore, minima rem corporis nihil impedit. Fugiat dolores corrupti alias laboriosam, similique repellendus cupiditate officiis? Saepe sed fugit itaque asperiores dolores sit corrupti neque eos veniam obcaecati omnis dignissimos voluptatibus autem voluptate quod iusto fuga amet eligendi, repellat totam similique ab atque aperiam architecto! Asperiores, eum! Facere officia et neque ducimus doloremque vel, delectus non, odio accusantium magni blanditiis deleniti incidunt placeat veniam excepturi porro aliquam? Atque eaque numquam quae ullam perspiciatis veritatis reiciendis rerum alias voluptatibus quam consectetur quasi neque ipsum quibusdam iste dicta ducimus expedita velit, libero, odio maiores voluptatum similique optio. Consectetur, provident dicta mollitia nihil, et rem impedit fuga eligendi dignissimos voluptatibus alias magnam neque deleniti! Nulla, minima consequatur. Repellat eveniet quos itaque officiis, impedit cupiditate quae placeat? Eligendi repellat iusto labore in nobis similique earum, deserunt ut odio fugit voluptas dolorem quasi ea omnis cumque aliquam quas eius dignissimos nesciunt minima vitae enim sunt. Excepturi ipsam doloribus quos itaque dolorum voluptas autem dignissimos similique officiis nisi perferendis nam explicabo, ut provident? Dolores dolorem dignissimos quis amet commodi, voluptatum aut maxime eligendi praesentium architecto deserunt eveniet quaerat laboriosam eius a laborum ex. Tenetur aspernatur repellat inventore ab architecto cupiditate! Veniam, velit reiciendis. Sed tenetur, numquam debitis provident quam fuga maxime corrupti incidunt recusandae eos? Voluptatem animi laborum doloribus provident iure deleniti, quas velit nisi autem qui excepturi quasi quo veritatis dolores ad dignissimos esse quibusdam ex quod ipsa! Ipsa nemo est vero placeat tenetur alias quo aliquam odit vel molestias, voluptatum itaque molestiae laudantium ea et blanditiis facere provident dicta, deleniti, aliquid consequuntur laboriosam quidem! Debitis eaque dolores voluptatibus, voluptates labore voluptatem. Architecto, voluptatem veritatis perferendis, accusamus, aperiam dolor maxime consequatur iusto nostrum incidunt assumenda. Odit, facilis. Nemo minima quae voluptatum! Ab enim delectus natus iusto molestias a sint minima amet laboriosam necessitatibus qui accusamus eos voluptates ipsum quia iure minus ipsam dolorem, similique officiis distinctio esse! Non obcaecati, molestias ad quaerat eos expedita architecto quis illum fugiat repellat dolores atque ratione dignissimos saepe ipsam maxime dolor dicta possimus voluptatibus perferendis nisi, est quod. Quia itaque, cumque iusto esse mollitia ullam? Velit similique error saepe voluptatum eius, eos adipisci explicabo accusantium veniam cupiditate delectus atque optio obcaecati dolorum quas ab consectetur impedit a animi nulla nesciunt, corporis fugiat voluptatibus quod. Voluptate eligendi dolores corporis, incidunt nulla velit autem magni voluptatem distinctio ad harum similique placeat iste aliquid et totam laborum rem delectus vero corrupti sint atque doloribus! Nisi, consectetur! Excepturi rerum temporibus voluptatem quisquam suscipit velit nemo minima, laudantium, quos minus quae doloribus hic adipisci saepe ipsam aspernatur autem repudiandae odio quidem aliquid sed cum? Voluptates esse est sequi ipsa vel sed explicabo magnam, placeat magni voluptatum ipsam eos porro illo inventore consectetur odio aliquid eveniet, cupiditate quas blanditiis numquam consequatur, doloremque accusantium. Sunt fugit esse beatae! Doloremque, voluptatem voluptatibus pariatur inventore porro magni. Aut, placeat laborum. Tenetur, sit accusamus animi possimus blanditiis vero autem ea obcaecati, quasi eos illo harum omnis aspernatur facilis esse enim consequuntur adipisci provident minima mollitia? Quibusdam, odit culpa nesciunt dolores molestias nemo at rerum in debitis perspiciatis laborum magni. Natus officia aperiam deserunt, asperiores laborum aliquid ex ullam necessitatibus numquam sit quam nihil repudiandae reiciendis soluta omnis quibusdam mollitia autem praesentium iure doloribus voluptates. Quae, voluptate dolore, veritatis omnis pariatur consequuntur, nesciunt minima officiis corporis deserunt consectetur temporibus vero deleniti minus esse cum numquam magni odio aut perspiciatis natus doloribus tempora reprehenderit. Quae illum nihil totam officiis porro quo aut quam nesciunt deleniti inventore debitis exercitationem hic laborum, temporibus sapiente doloribus fugit labore quaerat a ducimus, pariatur provident cumque. Labore assumenda beatae accusantium blanditiis facere, distinctio quo quam voluptates? Debitis sint iusto ab consectetur rerum. Consectetur reiciendis quo labore ea modi veritatis voluptate beatae veniam rem nemo sapiente ut, autem necessitatibus adipisci debitis perspiciatis delectus velit magni repudiandae eaque at qui rerum voluptas aspernatur? Quidem, voluptatum commodi atque officiis harum accusantium, dolorum a iste mollitia nostrum doloribus vel distinctio sapiente illo itaque! Vitae quod porro rem expedita? Ullam culpa maxime quo reprehenderit quas! Maiores, alias porro? Sequi vitae harum iste impedit! Praesentium neque voluptatum officia fugit possimus velit aut aliquam ducimus odio consequuntur, at, quidem deleniti labore repudiandae ipsa ad nisi ex. Molestias corrupti eius, ullam quos laudantium commodi totam nam nostrum ex aliquam repellendus id, ipsa facilis tempora officiis corporis cum architecto in quod, inventore maiores. Quam expedita, a, nam ad quod totam porro inventore repellendus error iste eligendi cupiditate. Incidunt soluta, dolorum ea magnam hic harum atque dignissimos optio unde. Quaerat necessitatibus obcaecati asperiores consequuntur commodi saepe, voluptatibus maiores sunt nemo iure deleniti, dicta harum dolores architecto in, iusto quae vel ab? Ratione iure maxime omnis itaque iusto est reiciendis provident aspernatur. Culpa magnam autem repudiandae, animi temporibus distinctio quae dignissimos ea illum ut ex. Necessitatibus provident, dolor unde nulla vel incidunt corporis, fugit consequuntur omnis, quae sequi velit?</p> */}
+  return (
+    <div className="container">
+      <div className="section-footer d-flex  align-items-center">
+      <div className="section-footer-auth d-flex gap-2 align-items-center">
+        <ImGithub size={`2em`} />
+        <p className="section-footer-auth">
+          © {new Date().getFullYear()} GitHub, Inc.
+        </p>
       </div>
-   );
+      <ul className="info-link-list d-flex align-items-center">
+        <li className="info-link-list-item">
+          <a
+            href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Terms
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Privacy
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://github.com/security"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Security
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://www.githubstatus.com/"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Status
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://docs.github.com/ru"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Docs
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://support.github.com/?tags=dotcom-footer"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Contact GitHub
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://github.com/pricing"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Pricing
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://docs.github.com/ru"
+            target="blank"
+            className="link-list-item-link"
+          >
+            API
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://github.com/services/"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Training
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://github.blog/"
+            target="blank"
+            className="link-list-item-link"
+          >
+            Blog
+          </a>
+        </li>
+        <li className="info-link-list-item">
+          <a
+            href="https://github.com/about"
+            target="blank"
+            className="link-list-item-link"
+          >
+            About
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  );
 };
 
 export default index;

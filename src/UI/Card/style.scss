@@ -12,7 +12,10 @@
 .card-repo-item{
   font-size: 13px !important;
   color: grey;
+  font-weight: 400 !important;
+
   &-title{
+    font-weight: 500 !important;
     width: 100%;
     font-size: 15px;
     &:hover{

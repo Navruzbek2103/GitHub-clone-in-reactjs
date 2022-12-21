@@ -23,7 +23,7 @@ const index = () => {
                      <VscCircleFilled size={`1.5em`} color="darkred"/>
                      HTML
                   </li>
-                  <li className="card-desc-item d-flex align-items-center">
+                  <li className="card-desc-item d-flex align-items-center gap-1">
                      <FiStar size={`1.2em`} color="dimgrey"/>
                      2
                   </li>
