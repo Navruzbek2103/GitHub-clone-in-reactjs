@@ -9,7 +9,7 @@ const index = () => {
   return <div className="container">
     <div className="wrap d-flex ">
       <UserInfo />
-      <div className="repositories border">
+      <div className="repositories">
         <h2 className="repositories-title mb-2">Popular repositories</h2>
         <ul className="repo-list d-flex w-100 flex-wrap">
           <li className="repo-list-item ">
@@ -35,6 +35,7 @@ const index = () => {
 
       </div>
     </div>
+    <hr />
   </div>
 }
 

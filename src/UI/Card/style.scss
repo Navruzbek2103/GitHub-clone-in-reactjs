@@ -8,6 +8,20 @@
   width: calc(50% - 17px);
 }
 
-.card-inner{
-  font-size: 14px;
+
+.card-repo-item{
+  font-size: 13px !important;
+  color: grey;
+  &-title{
+    width: 100%;
+    font-size: 15px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  &-span{
+    color: grey;
+    font-size: 13px;
+    padding: 0 6px;
+  }
 }
