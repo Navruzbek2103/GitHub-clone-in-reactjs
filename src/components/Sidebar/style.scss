@@ -28,6 +28,10 @@
       color: #57606a !important;
       font-size: 14px;
 
+      &:last-child{
+        cursor: pointer;
+      }
+
       &:last-child:hover {
         color: #3799fb !important;
       }

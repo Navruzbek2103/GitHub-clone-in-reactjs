@@ -16,7 +16,6 @@ const index = () => {
     })
 
   },[])
-  // console.log(data);
 
   return <div className="repositories">
     <div className="repositories-search d-flex gap-3">

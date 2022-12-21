@@ -15,7 +15,6 @@ const index = () => {
       setData(result.data)
     })
   }, [])
-  console.log(data)
 
    return (
       <div className="user-info">
@@ -53,7 +52,7 @@ const index = () => {
             {`${data.location ? data.location : ""}`}
           </li>
 
-          <li className={`user-info-item d-flex align-items-center gap-2 ${data.name === "Navruzbek" ? "d-none" : ""}`}>
+          <li className={`user-info-item  d-inline-block  ${data.name === "Navruzbek" ? "d-none" : ""}`}>
             Block or Report
           </li>
         </ul>
