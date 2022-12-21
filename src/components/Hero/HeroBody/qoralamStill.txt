@@ -1,0 +1,65 @@
+.container {
+  max-width: 1257px;
+  border: 1px solid red;
+  .wrap {
+    .user-info {
+      margin-top: -32px;
+      max-width: 320px;
+      width: 100%;
+      padding-right: 20px;
+
+      .avatar {
+        position: relative;
+        max-width: 295px;
+        height: 295px;
+        z-index: 9;
+      }
+
+      .user-info-text {
+        font-size: 20px;
+        color: #57606a;
+        font-weight: 300;
+      }
+
+      .btn-follow {
+        background-color: #f6f8fa;
+        font-size: 14px;
+      }
+
+      .user-info-list {
+        .user-info-item {
+          color: #57606a !important;
+          font-size: 14px;
+
+          &:last-child:hover {
+            color: #3799fb !important;
+          }
+
+          .follow {
+            color: #57606a;
+            gap: 2px;
+            font-size: 14px;
+
+            &:hover {
+              color: #3799fb !important;
+              .follow-icon {
+                color: #3799fb !important;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .repositories {
+      padding: 25px 0;
+      // max-width: 600px;
+      width: 100%;
+
+      &-title {
+        font-weight: 400 !important;
+        font-size: 16px;
+      }
+    }
+  }
+}

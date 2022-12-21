@@ -1,0 +1,150 @@
+.container {
+  max-width: 1000px;
+}
+
+.list-item {
+  padding: 3px 17px;
+
+  &:first-child {
+    background-color: #0969da;
+  }
+
+  &:not(:last-child) {
+    border-right: 1px solid #d0d7de;
+  }
+}
+
+.list-item-link {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sections-input-box {
+  max-width: 540px;
+  width: 100%;
+
+  .pulls-search {
+    left: 8px;
+  }
+
+  .sections-input {
+    &:focus {
+      border: 2px solid #0969da;
+      box-shadow: 0 0 0 0 transparent;
+    }
+
+    &::placeholder {
+      font-size: 14px;
+    }
+
+    padding: 3px 10px 3px 35px;
+  }
+}
+
+.result-header {
+  border-bottom: 1px solid #d0d7de;
+  border-radius: 5px 5px 0 0;
+
+  .result-left-list {
+    padding: 14px 0;
+
+    .result-left-item-link {
+      color: #57606a;
+      padding-left: 30px;
+      font-size: 14px;
+
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("./../../assets/images/pull.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 85%;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+    .result-left-item:last-child .result-left-item-link::before {
+      background-image: url("./../../assets/images/tick.png");
+    }
+
+    .result-left-item-link-active {
+      color: black;
+      font-weight: 600;
+    }
+  }
+
+  .result-right-list {
+    gap: 25px;
+
+    .result-right-item-link {
+      color: #57606a;
+      font-size: 14px;
+
+      &:hover {
+        color: black;
+      }
+
+      &::after{
+        position: absolute;
+        right: 0;
+        content: "";
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background-image: url("./../../assets/images/drop-down-arrow.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+      }
+    }
+  }
+}
+
+.result-body{
+  padding: 80px 100px 90px;
+  gap: 20px;
+
+  &-title{
+    font-size: 24px;
+  }
+}
+
+.protip-text{
+  color: #57606A;
+  font-size: 14px;
+  margin-bottom: 40px;
+
+  &::before{
+    position: absolute;
+    top: 2px;
+    left: 31%;
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("./../../assets/images/idea-16px.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+
+  &-span{
+    color: black;
+    font-weight: 500;
+  }
+}
+
+.section-footer-auth{
+  color: #57606A;
+  font-size: 12px;
+}
+.link-list-item-link{
+  font-size: 12.5px;
+}

@@ -1,0 +1,13 @@
+
+.repo-list{
+  gap: 17px;
+}
+
+.repo-list-item{
+  // max-width: 400px;
+  width: calc(50% - 17px);
+}
+
+.card-inner{
+  font-size: 14px;
+}
