@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "./style.scss";
 import { NavLink } from "react-router-dom";
 import { VscGithub } from "react-icons/vsc";
@@ -8,8 +8,16 @@ import { BsPlusLg } from "react-icons/bs";
 import { MdArrowDropDown } from "react-icons/md";
 import { RxAvatar } from "react-icons/rx";
 import AvatarIcon from "./../../assets/images/dot-circle-24px.png"
+import {API} from "./../../api/api"
 
 const index = () => {
+  const [user, setUser] = useState([])
+
+  useEffect(() => {
+    API.getUser().then(result => {
+      setUser(result.data)
+    })
+  }, [])
   return (
     <header className="bg-dark px-3 py-1">
       <div className="container-fluid">
@@ -84,7 +92,7 @@ const index = () => {
               />
             </div>
             <div className="header-user-info d-flex align-items-center" >
-              <img src={AvatarIcon} className="border rounded-circle" alt="avatar icon" />
+              <img src={`${user.avatar_url ? user.avatar_url : AvatarIcon }`} className="border rounded-circle" width={`24px`} alt="avatar icon" />
               {/* <RxAvatar color="white" size={`1.3em`} /> */}
               <MdArrowDropDown
                 className="header-user-info-dropdown"

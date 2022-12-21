@@ -34,7 +34,7 @@ const index = () => {
         </button>
         <ul className="user-info-list ">
           <li className="user-info-item d-flex gap-1 mb-3">
-            <Link to="/" className="follow d-flex align-items-center">
+            <Link to="/followers" className="follow d-flex align-items-center">
               <HiOutlineUsers
                 className="follow-icon"
                 color="grey"

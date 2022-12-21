@@ -6,7 +6,7 @@ import {FiStar} from "react-icons/fi"
 
 const index = ({repo}) => {
 
-   console.log(repo)
+   // console.log(repo)
    return (
       <div className='card d-flex p-3 '>
          <ul className="card-repo-list d-flex flex-column gap-4">
