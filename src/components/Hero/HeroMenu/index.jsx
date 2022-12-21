@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import { NavLink } from "react-router-dom";
 import "./style.scss";
 import { RiBookOpenLine } from "react-icons/ri";
@@ -18,21 +18,22 @@ const index = () => {
     })
   }, [])
 
+  // const menu = useRef();
 
   const stars = repos.filter((element) => element.stargazers_count != 0)
 
   return (
     <div className="hero-menu-wrapper position-sticky">
       <ul className="hero-menu-list w-50  mx-auto align-items-center d-flex ">
-        <li className="hero-menu-list-item hero-menu-list-item-active">
-          <NavLink to="/" className="list-item-link rounded-2 d-flex align-items-center gap-1 text-dark fw-normal">
+        <li className="hero-menu-list-item">
+          <NavLink to="/" className={`list-item-link rounded-2 d-flex align-items-center gap-1 text-dark fw-normal ${({isActive}) => isActive ? "fw-bold" : ""} `}>
             <RiBookOpenLine className="hero-menu-icon" size={`1.2em`} />
             Overview
           </NavLink>
         </li>
 
         <li className="hero-menu-list-item">
-          <NavLink to="/repositories" className="list-item-link rounded-2 text-dark fw-normal d-flex align-items-center gap-1">
+          <NavLink to="/repositories" className={`list-item-link rounded-2 text-dark fw-normal d-flex align-items-center gap-1 `}>
             <RiGitRepositoryLine className="hero-menu-icon" size={`1.1em`} />
             Repositories
             <span className="menu-list-span rounded-4 fw-semibold">{repos.length}<sup>+</sup></span>
