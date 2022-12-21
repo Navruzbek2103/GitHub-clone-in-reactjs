@@ -16,7 +16,7 @@ const index = () => {
     })
 
   },[])
-  console.log(data);
+  // console.log(data);
 
   return <div className="repositories">
     <div className="repositories-search d-flex gap-3">
@@ -30,7 +30,7 @@ const index = () => {
     </div>
     <ul className="repositories-list">
       {data.length > 0 ? data.map((repo) => {
-        return <Repository data={repo} />
+        return <Repository key={repo.id} data={repo} />
       }) : <h2>Not found</h2>}
     </ul>
   </div>

@@ -7,8 +7,13 @@ import {VscRepoForked} from "react-icons/vsc"
 import {MdArrowDropDown} from "react-icons/md"
 
 const index = ({data}) => {
-  let year = (data.updated_at)
-  console.log(year);
+  // "2022-06-10T04:08:16Z"
+  let year = (new Date().getFullYear() - data.updated_at.split("T")[0].slice(0, 4))
+  let month = ((new Date().getMonth()+1) - data.updated_at.split("T")[0].slice(5, 7))
+  // let week = (new Date().getFullYear() - data.updated_at.split("T")[0].slice(0, 4))
+  // let day = ( data.updated_at.split("T")[0].slice(8, 10))
+  // console.log(day);
+  // console.log(new Date().getDate());
 
   return <li className="repositories-item d-flex align-items-center justify-content-between">
     <div className="repositories-item-left d-flex flex-column gap-2">
@@ -26,7 +31,7 @@ const index = ({data}) => {
 
         {/* <Link to="/" className="repositories-item-left-box-star text-dark gap-1 d-flex align-items-center"><VscRepoForked className="repositories-item-left-star-icon" color="dimgrey" size={`1.2em`} /> 9</Link> */}
         {/* 3 weeks */}
-        <p className="repositories-item-update">Updated {data.update_at} ago</p>
+        <p className="repositories-item-update">Updated {year > 0 ? `${year} year` : month > 0 ? `${month} month` : ""} ago</p>
       </div>
     </div>
     <div className="repositories-item-right">
