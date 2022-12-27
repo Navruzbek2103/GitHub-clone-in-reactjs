@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const index = ({data}) => {
+
   return (
     <li className="followers-list-item d-flex">
       <Link to="/" className="me-4">
@@ -12,7 +13,7 @@ const index = ({data}) => {
 
       <div className="followers-item-wrapper w-100">
         <div className="followers-item-inner d-flex justify-content-between ">
-          <h2 className="followers-list-item-title "><a href={data.html_url} className="text-dark" target="_blank">Christian Deacon </a><small className="fw-normal">{data.login}</small></h2>
+          <h2 className="followers-list-item-title "><a href={data.html_url} className="text-dark" target="blank">{data.login} </a><small className="fw-normal">{data.login}</small></h2>
           <button className="followersBtn btn btn-light border fw-semibold">Follow</button>
         </div>
         <p className="followers-item-text">Open source supporter and I love game/web/back-end dev, network engineering, and modding! Checkout -</p>

@@ -38,17 +38,21 @@
     color: dimgray;
   }
 }
-.btn-group{
-  width: 100px;
-}
+
 .repositories-item-right{
   max-width: 100px;
   width: 100%;
   // border: 1px solid red;
 }
+
+.btn-group{
+  width: 100px;
+}
+
 .repositories-underline{
+
   width: 150%;
-  transform: translateX(-25%);
+  transform: translateX(-33%);
   height: 2px;
   background-color:  #A3E6B2;
 }

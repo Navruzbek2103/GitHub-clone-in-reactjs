@@ -8,5 +8,7 @@ export const API = {
 
   getFollowers: async (followers) => axios.get(`${baseUrl}/Navruzbek2103/followers`),
 
-  getRepos: async (repos) => axios.get(`${baseUrl}/Navruzbek2103/repos`),
+  getFollowing: async () => axios.get(`${baseUrl}/Navruzbek2103/following`),
+
+  getRepos: async () => axios.get(`${baseUrl}/Navruzbek2103/repos`),
 }

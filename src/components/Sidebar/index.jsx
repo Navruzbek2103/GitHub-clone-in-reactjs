@@ -16,6 +16,7 @@ const index = () => {
     })
   }, [])
 
+
    return (
       <div className="user-info">
         <div className="avatar rounded-circle overflow-hidden mb-3">
@@ -42,7 +43,7 @@ const index = () => {
               />
               <span className="fw-semibold">{`${data.followers ? data.followers : "0"}`}</span> followers
             </Link>
-            <Link to="/" className="follow d-flex align-items-center">
+            <Link to="/following" className="follow d-flex align-items-center">
               <BsDot className="follow-icon" color="grey" size={`.6em`} />
               <span className="fw-semibold">{`${data.following ? data.following : "0"}`}</span> following
             </Link>
