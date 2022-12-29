@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { HiOutlineUsers } from "react-icons/hi";
 import { BsDot } from "react-icons/bs";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import {HiOutlineBuildingOffice2 } from "react-icons/hi2"
 import AvatarImg from "./../../assets/images/avatar.jpg";
 import { API } from '../../api/api';
 
@@ -47,6 +48,10 @@ const index = () => {
               <BsDot className="follow-icon" color="grey" size={`.6em`} />
               <span className="fw-semibold">{`${data.following ? data.following : "0"}`}</span> following
             </Link>
+          </li>
+          <li className="user-info-item d-flex align-items-center gap-2 mb-2">
+            <HiOutlineBuildingOffice2 size={`1.3em`} />
+            {`${data.company ? data.company : ""}`}
           </li>
           <li className="user-info-item d-flex align-items-center gap-2 mb-2">
             <HiOutlineLocationMarker size={`1.1em`} />

@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import "./style.scss";
 import Follower from "./../../UI/Follower"
 import {API} from "./../../api/api"
-
+import SpinnerGif from "./../../assets/images/Fidget-spinner.gif"
 
 
 const index = () => {
@@ -15,10 +15,10 @@ const index = () => {
 
 
   return (
-    <ul className="followers-list w-100">
+    <ul className="followers-list w-100 position-relative">
       {follower.length > 0 ? follower.map((element, i) => {
         return <Follower data={element} key={i}/>
-      }) : <h2>Not Found</h2>}
+      }) : <img src={SpinnerGif} className="spinner-gif"/>}
     </ul>
   )
 }

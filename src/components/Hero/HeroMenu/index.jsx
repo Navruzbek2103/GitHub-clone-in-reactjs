@@ -52,13 +52,13 @@ const index = () => {
     </li>
 
     <li className="hero-menu-list-item">
-    <NavLink to="/" className="list-item-link rounded-2 d-flex align-items-center gap-1 text-dark fw-normal">
+    <NavLink to="/packages" className="list-item-link rounded-2 d-flex align-items-center gap-1 text-dark fw-normal">
     <FiBox className="hero-menu-icon" size={`1.1em`} />
     Packages
     </NavLink>
     </li>
     <li className="hero-menu-list-item">
-    <NavLink to="/" className="list-item-link rounded-2  d-flex align-items-center gap-1 text-dark fw-normal">
+    <NavLink to="/stars" className="list-item-link rounded-2  d-flex align-items-center gap-1 text-dark fw-normal">
     <AiOutlineStar className="hero-menu-icon" size={`1.2em`} />
     Stars
     <span className="menu-list-span rounded-4 fw-semibold">{stars.length}<sup>+</sup></span>

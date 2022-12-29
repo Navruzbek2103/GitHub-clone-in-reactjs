@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
 import Following from "./../../UI/Following"
 import {API} from "./../../api/api"
-
-
+import SpinnerGif from "./../../assets/images/Fidget-spinner.gif"
+import "./style.scss"
 
 const index = () => {
   const [following, setFollowing] = useState([])
@@ -14,10 +14,10 @@ const index = () => {
 
 
   return (
-    <ul className="followers-list w-100">
+    <ul className="followers-list w-100 position-relative">
       {following.length > 0 ? following.map((element, i) => {
         return <Following data={element} key={i}/>
-      }) : <h2>Not Found</h2>}
+      }) : <img src={SpinnerGif} className="spinner-gif"/>}
     </ul>
   )
 }

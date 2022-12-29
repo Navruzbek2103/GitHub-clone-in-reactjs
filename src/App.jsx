@@ -8,6 +8,8 @@ import Hero from "./components/Hero"
 import Overview from "./pages/Overview"
 import Repositories from "./pages/Repositories"
 import Projects from "./pages/Project"
+import Packages from "./pages/Packages"
+import Stars from "./pages/Stars"
 import Followers from "./pages/Followers"
 import Following from "./pages/Following_page"
 
@@ -22,6 +24,8 @@ const App = () => {
             <Route path='/' element={<Overview />} />
             <Route path='/repositories' element={<Repositories />} />
             <Route path='/projects' element={<Projects />} />
+            <Route path='/packages' element={<Packages />} />
+            <Route path='/stars' element={<Stars />} />
             <Route path='/followers' element={<Followers />} />
             <Route path='/following' element={<Following />} />
 

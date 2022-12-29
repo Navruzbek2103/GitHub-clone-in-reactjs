@@ -4,7 +4,7 @@ import {MdArrowDropDown} from "react-icons/md"
 import {RiBookLine} from "react-icons/ri"
 import Repository from "./../../UI/Repos"
 import {API} from "./../../api/api"
-
+import SpinnerGif from "./../../assets/images/Fidget-spinner.gif"
 
 const index = () => {
   const [data, setData] = useState([]);
@@ -28,10 +28,10 @@ const index = () => {
       </div>
       {/* <button className="btn btn-success d-flex align-items-center gap-1 fw-semibold"><RiBookLine size={`1.2em`} />New</button> */}
     </div>
-    <ul className="repositories-list">
+    <ul className="repositories-list position-relative">
       {data.length > 0 ? data.map((repo) => {
         return <Repository key={repo.id} data={repo} />
-      }) : <h2>Not found</h2>}
+      }) : <img src={SpinnerGif} className="spinner-gif"/>}
     </ul>
   </div>
 }
