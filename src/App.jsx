@@ -34,6 +34,7 @@ const App = () => {
           <Route path="/pulls" element={<PullRequest />} />
           <Route path="/issues" element={<Issues />} />
 
+
         </Routes>
       </main>
       <Footer />
